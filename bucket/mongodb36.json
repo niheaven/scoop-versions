@@ -1,12 +1,12 @@
 {
     "homepage": "https://www.mongodb.org",
-    "version": "3.4.20",
+    "version": "3.6.11",
     "license": "AGPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.4.20-signed.msi",
-            "hash": "a6b27a8ce7ba1d6ebe734e7e5c0f644317ca684a0e4530250b9a2201f331bc59",
-            "extract_dir": "MongoDB\\Server\\3.4"
+            "url": "https://fastdl.mongodb.org/win32/mongodb-win32-x86_64-2008plus-ssl-3.6.11-signed.msi",
+            "hash": "6eba883110892f50319ae1351a6df1ffba5d1bc205246e4d68bcd6a3e4217867",
+            "extract_dir": "MongoDB\\Server\\3.6"
         }
     },
     "bin": [
@@ -39,7 +39,7 @@
     ],
     "checkver": {
         "url": "https://www.mongodb.com/download-center/community",
-        "re": "(3\\.4\\.\\d+) \\(previous release\\)"
+        "re": "(3\\.6\\.\\d+) \\(previous release\\)"
     },
     "autoupdate": {
         "architecture": {
